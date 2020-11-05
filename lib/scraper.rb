@@ -18,6 +18,6 @@ class Scraper
     students
 end
   def self.scrape_profile_page(profile_url)
-    
+    doc = 
   end
 end
