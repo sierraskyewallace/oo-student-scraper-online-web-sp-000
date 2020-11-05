@@ -18,6 +18,8 @@ class Scraper
     students
 end
   def self.scrape_profile_page(profile_url)
-    doc = 
+    doc = Nokogiri::HTML(open(profile_url))
+    student = {} 
+    
   end
 end
